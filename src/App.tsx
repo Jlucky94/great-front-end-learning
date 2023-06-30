@@ -1,8 +1,8 @@
 import React from 'react';
-import Accordion, {accordionData} from "ReactTasks/Accordion/Accordion";
+import FlightBooker from "ReactTasks/FlightBooker/FlightBooker";
 
 
-const currentComponent = <Accordion props={accordionData}/>
+const currentComponent = <FlightBooker/>
 
 function App() {
   return (
